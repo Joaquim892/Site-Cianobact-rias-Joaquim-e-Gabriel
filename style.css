@@ -66,7 +66,7 @@ a{ color: var(--teal); }
   font-weight: 700;
 }
 
-/* ---------------- HEADER ---------------- */
+
 .site-header{
   position: sticky;
   top: 0;
@@ -130,7 +130,7 @@ a{ color: var(--teal); }
   font-weight: 700;
 }
 
-/* ---------------- HERO ---------------- */
+
 .hero{
   padding: 64px 0 70px;
   background:
@@ -172,7 +172,7 @@ a{ color: var(--teal); }
   border-radius: 999px;
 }
 
-/* ---------------- SLIDE (imagem estilo lâmina de microscópio) ---------------- */
+
 .slide{
   flex: 1 1 380px;
   max-width: 460px;
@@ -226,7 +226,6 @@ a{ color: var(--teal); }
 }
 .slide--wide img{ height: 300px; }
 
-/* ---------------- SECTIONS & CARDS ---------------- */
 .section{ padding: 76px 0; }
 .section--alt{ background: var(--surface-alt); }
 
@@ -308,7 +307,6 @@ a{ color: var(--teal); }
   margin-top: 22px;
 }
 
-/* ---------------- TIMELINE ---------------- */
 .timeline-title{
   margin-top: 56px;
   font-size: 1.2rem;
@@ -365,7 +363,6 @@ a{ color: var(--teal); }
 
 .timeline-content p{ margin: 0; color: var(--ink-soft); }
 
-/* ---------------- HOME / LINK CARDS (novo) ---------------- */
 .link-grid{
   display: flex;
   flex-wrap: wrap;
@@ -401,7 +398,6 @@ a{ color: var(--teal); }
   display: inline-block;
 }
 
-/* ---------------- AUTORES (novo) ---------------- */
 .authors-grid{
   display: flex;
   flex-wrap: wrap;
@@ -461,7 +457,6 @@ a{ color: var(--teal); }
 
 .author-card p{ color: var(--ink-soft); font-size: 0.92rem; margin: 0; }
 
-/* ---------------- QUESTÕES ENEM (novo) ---------------- */
 .enem-question{
   background: var(--surface);
   border-radius: var(--radius);
@@ -532,7 +527,6 @@ a{ color: var(--teal); }
 .enem-resolution.open{ display: block; }
 .enem-resolution strong{ color: var(--teal-deep); }
 
-/* ---------------- FONTES / REFERÊNCIAS (novo) ---------------- */
 .sources-group-title{
   font-family: var(--font-mono);
   text-transform: uppercase;
@@ -548,7 +542,6 @@ a{ color: var(--teal); }
 .book-list li{ margin-bottom: 12px; color: var(--ink-soft); }
 .book-list strong{ color: var(--ink); }
 
-/* ---------------- FOOTER ---------------- */
 .site-footer{
   background: var(--teal-deep);
   color: #e7f3f0;
@@ -564,7 +557,6 @@ a{ color: var(--teal); }
   margin-top: 6px !important;
 }
 
-/* ---------------- RESPONSIVE ---------------- */
 @media (max-width: 720px){
   .hero-inner{ flex-direction: column; }
   .card--split{ flex-direction: column; }
